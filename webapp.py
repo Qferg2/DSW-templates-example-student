@@ -16,7 +16,7 @@ def render_page2():
 
 @app.route("/p3")
 def render_page2():
-    return render_template('page2.html')
+    return render_template('page3.html')
     
 if __name__=="__main__":
     app.run(debug=False)
